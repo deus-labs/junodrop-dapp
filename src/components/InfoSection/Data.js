@@ -1,3 +1,6 @@
+import Image1 from '../../images/juno-1.svg';
+import Image2 from '../../images/juno-1.svg';
+
 export const homeObjOne = {
   id: "about",
   lightBg: false,
@@ -9,7 +12,7 @@ export const homeObjOne = {
     "Junodrop.io offers devs the small amount of Juno they need to start developing and interacting with Juno mainnet",
   buttonLabel: "Claim Juno",
   imgStart: false,
-  img: require("../../images/juno-1.svg"),
+  img: Image1,
   alt: "Juno",
   dark: true,
   primary: true,
@@ -27,7 +30,7 @@ export const homeObjTwo = {
     "Discover a wide variety of dapps, contracts and tools, built in the Junø ecosystem by developers and contributors from across the globe.",
   buttonLabel: "Juno Ecosystem",
   imgStart: true,
-  // img: require("../../images/juno-2.svg.default"),
+  img: Image2,
   alt: "Juno",
   dark: true,
   primary: true,
