@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS} from 'react-scroll'
+import Logo from '../../images/drop1.svg';
 
 
 
@@ -31,12 +32,13 @@ export const NavbarContainer = styled.div`
   max-width: 1100px;
 `;
 
-export const NavLogo = styled(LinkR)`
+export const NavLogo = styled.img`
 color: #f67171;
 justify-self: flex-start;
 cursor: pointer;
 font-size: 1.5rem;
 display: flex;
+width: 150px;
 align-items: center;
 margin-left: 24px;
 font-weight: bold;
