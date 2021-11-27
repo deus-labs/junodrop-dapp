@@ -1,5 +1,6 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
+import Logo from '../../images/drop1.svg';
 
 import {
   Nav,
@@ -19,7 +20,7 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">Junodrop</NavLogo>
+          <NavLogo src={Logo}/>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
