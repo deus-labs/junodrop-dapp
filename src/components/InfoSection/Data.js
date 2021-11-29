@@ -1,5 +1,7 @@
 import Image1 from '../../images/juno-1.svg';
-import Image2 from '../../images/juno-1.svg';
+import Image2 from '../../images/juno-2.svg';
+import Image3 from '../../images/svg-1.svg';
+
 
 export const homeObjOne = {
   id: "about",
@@ -9,7 +11,7 @@ export const homeObjOne = {
   topLine: "Get some Juno",
   headline: "Claim Juno with the faucet with zero fees",
   description:
-    "Junodrop.io offers devs the small amount of Juno they need to start developing and interacting with Juno mainnet",
+    "Junodrop offers devs the small amount of Juno they need to start developing and interacting with Juno mainnet",
   buttonLabel: "Claim Juno",
   imgStart: false,
   img: Image1,
@@ -48,7 +50,7 @@ export const homeObjThree = {
     " Cosmwasm is the toolset Juno uses for smart contract development, Click the button below for a look at Cosmwasm Docs to find out all you need to know about it",
   buttonLabel: "Take me here",
   imgStart: false,
-  // img: require("../../images/juno-3.svg"),
+  img: Image3,
   alt: "Juno",
   dark: true,
   primary: true,
