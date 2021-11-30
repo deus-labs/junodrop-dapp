@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS} from 'react-scroll'
-import Logo from '../../images/drop1.svg';
 
 
 
@@ -114,7 +113,7 @@ export const NavBtnLink = styled(LinkR)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #fff;
+    background: ${({ primary }) => (primary ? "#010606" : "#ffff")};
+    
   }
 `;
