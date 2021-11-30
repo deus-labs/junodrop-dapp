@@ -64,7 +64,7 @@ export const NavMenu = styled.ul`
  align-items: center;
  list-style: none;
  text-align: center;
- margin-right: -22px;
+ margin-right: 20px;
 
  @media screen and (max-width: 768px) {
      display: none;
@@ -78,6 +78,7 @@ export const NavItem = styled.li`
 export const NavLinks = styled(LinkS)`
   color: #f67171;
   display: flex;
+  font-weight: bold;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
