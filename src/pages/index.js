@@ -17,7 +17,7 @@ const toggle = () => {
     return (
         <>
         <Sidebar isOpen={isOpen} toggle={toggle}/>
-        <Navbar /> 
+        <Navbar toggle={toggle} /> 
         <HeroSection />
         <InfoSection {...homeObjOne} />
         <InfoSection {...homeObjTwo} />
