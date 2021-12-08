@@ -86,13 +86,20 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-      border-bottom: 3px solid #fff;
+      border-bottom: 3px solid #f67171;
   }
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: ${({ primary }) => (primary ? "#010606" : "#ffff")};
+    
+
 `;
 
 export const NavBtn = styled.nav`
+  color: #fff;
   display: flex;
   align-items: center;
+  font-weight: bold;
 
   @media screen and (max-width: 768px) {
     display: none;

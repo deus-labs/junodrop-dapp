@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import Video from "../../video/video.mp4";
+import { StaticImage } from "gatsby-plugin-image";
+import Logo from "../../images/drop1.svg";
 import { Button } from "../ButtonElement";
 import {
   HeroContainer,
   HeroBg,
   VideoBg,
   HeroContent,
-  HeroH1,
   HeroP,
   HeroBtnWrapper,
   ArrowForward,
@@ -25,7 +26,7 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Welcome to Junodrop</HeroH1>
+      <StaticImage height={50} src="../images/drop1.svg" alt="Logo" />
         <HeroP> Your first Juno transaction! </HeroP>
         <HeroBtnWrapper>
           <Button to="address" onMouseEnter={onHover} onMouseLeave={onHover}>

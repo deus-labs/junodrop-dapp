@@ -56,4 +56,3 @@ export const homeObjThree = {
   primary: false,
   darkText: false,
 };
-
