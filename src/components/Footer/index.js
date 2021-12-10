@@ -62,7 +62,7 @@ const Footer = () => {
                 href="/"
                 target="_blank"
                 aria-label="Twitter"
-                href="https://www.twitter.com/junodrop"
+                href1="https://www.twitter.com/junodrop"
               >
                 <FaTwitter />
               </SocialIconLink>
@@ -70,7 +70,7 @@ const Footer = () => {
                 href="/"
                 target="_blank"
                 aria-label="Discord"
-                href="https://discord.com/channels/816256689078403103/915265063470895155"
+                href2="https://discord.com/channels/816256689078403103/915265063470895155"
               >
                 <FaDiscord />
               </SocialIconLink>
@@ -78,7 +78,7 @@ const Footer = () => {
                 href="//tbc"
                 target="_blank"
                 aria-label="Github"
-                href="https://github.com/Highlander-maker/junodrop.com"
+                href3="https://github.com/Highlander-maker/junodrop.com"
               >
                 <FaGithub />
               </SocialIconLink>
