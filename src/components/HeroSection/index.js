@@ -1,18 +1,18 @@
-import React, { useState } from "react";
-import Video from "../../video/video.mp4";
-import { StaticImage } from "gatsby-plugin-image";
-import Logo from "../../images/drop1.svg";
-import { Button } from "../ButtonElement";
 import {
-  HeroContainer,
-  HeroBg,
-  VideoBg,
-  HeroContent,
-  HeroP,
-  HeroBtnWrapper,
   ArrowForward,
   ArrowRight,
+  HeroBg,
+  HeroBtnWrapper,
+  HeroContainer,
+  HeroContent,
+  HeroP,
+  VideoBg,
 } from "./HeroElements";
+import React, { useState } from "react";
+
+import { Button } from "../ButtonElement";
+import Logo from "../../images/drop1.svg";
+import Video from "../../video/video.mp4";
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
@@ -26,7 +26,7 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-      <StaticImage height={50} src="../images/drop1.svg" alt="Logo" />
+      <img src={Logo} alt="Logo" style={{height:'12vh'}} />
         <HeroP> Your first Juno transaction! </HeroP>
         <HeroBtnWrapper>
           <Button to="address" onMouseEnter={onHover} onMouseLeave={onHover}>
